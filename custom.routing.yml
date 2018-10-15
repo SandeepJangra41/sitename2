@@ -1,0 +1,6 @@
+custom.post:
+  path: 'custom-api/post.json'
+  defaults: { _controller: '\Drupal\custom\Controller\CustomController::post_custom' }
+  methods:  [POST]
+  requirements:
+    _access: 'TRUE'
